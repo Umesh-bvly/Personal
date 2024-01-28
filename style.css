@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    text-align: center;
+}
+.first{
+    height: 600px;
+    
+    text-align: center;
+    background-color: #7BD3EA;
+    color: #243f46;
+}
+
+.title{
+    font-family: "Caveat", cursive;
+    font-size: 3rem;
+    padding-top: 150px;
+}
+.paragraph{
+    font-family: "Caveat", cursive;
+    font-size: 1.5rem;
+}
+.cloud-1{
+    height: 254px;
+    position: absolute;
+    top: 135px;
+  left: 250px;
+}
+.cloud-2{
+    height: 250px;
+    position: absolute;
+    right: 200px;
+    top: 270px;
+}
+.mount{
+    height: 800px;
+    position: absolute;
+    top: 100px;
+    left: 283px;
+    
+}
+.two{
+    height: 600px;
+    background-color: #A1EEBD;
+    text-align: center;
+    color: #1f462d;
+    
+}
+.dp{
+    display: flex;
+    justify-content: center;
+
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(dp.JPG);
+    background-size: cover;
+    background-position: 10px;
+    margin-top: 80px;
+}
+.two h1{
+    font-family: "Caveat", cursive;
+    margin-top: 40px;
+    font-size: 3rem;
+}
+.two p{
+    font-family: "Caveat", cursive;
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.three{
+    font-family: "Caveat", cursive;
+    height: 650px;
+    background-color: #F6F7C4;
+    text-align: center;
+   
+}
+.code{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(code.png);
+    background-size: cover;
+    display: inline-block;
+    margin-top: 100px;
+}
+.three-p{
+    font-family: "Caveat", cursive;
+    margin-top: 40px;
+    width: 50%;
+    font-size: 1.5rem;
+    color: rgb(79, 80, 30);
+    margin-left: 25%;
+}
+footer{
+    font-family: "Caveat", cursive;
+    height: 100px;
+    background-color: #F6D6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}  
+.footer-1{
+    font-size: 1.3rem;
+    color: #4b3434;
+    
+}
+@media screen and (max-width: 600px)
+{
+    .mount{
+        position: relative;
+        top: -139px;
+        left: -96px;
+    }
+}
